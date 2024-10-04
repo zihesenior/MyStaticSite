@@ -1,0 +1,112 @@
+::selection {
+    background-color: #0055bb;
+    color: white;
+}
+/*::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }*/
+* {
+    -ms-overflow-style: none !important;
+}
+::-webkit-scrollbar {
+    display: none; /*Òþ²Ø¹ö¶¯Ìõ*/
+}
+body {
+    background: #fff;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",verdana,lucida,arial,helvetica,sans-serif;
+    color: #666;
+    min-width: 600px;
+}
+a {
+    text-decoration: none;
+    color: #666;
+}
+#aside {
+    background: #fff;
+    box-shadow: 0px 0px 17px rgba(0,0,0,0.2);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    padding: 0 17px;
+    -ms-overflow-style: none !important;
+}
+#Qlinks p {
+    font-size: 13px;
+    text-align: left;
+    padding: 2px;
+}
+#aside ul {
+    text-align: center;
+    padding: 0;
+}
+#aside li {
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+    margin: 7px;
+    list-style: none;
+    float: left;
+    margin: 7px;
+    font-size:32px;
+    text-align:center;
+    line-height:40px;
+    width:40px;
+    height:40px;
+    border-radius:20px;
+}
+#logo {
+    margin:50px 0;
+    text-align: center;
+}
+#nav a {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+    display:block;
+    padding:4px 7px
+}
+
+#gotop {
+    cursor: pointer;
+    position: fixed;
+    text-align: center;
+    right: 17px;
+    bottom: 17px;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#main {
+    margin: 0 0 0 200px;
+    padding: 17px;
+}
+    #main a {
+        text-decoration: none;
+        color: #0055bb;
+    }
+.event_item {
+    background:#fefefe;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+    border: 1px solid #eee;
+    text-overflow: ellipsis;
+    padding:20px;
+    margin: 7px;
+    min-height: 20px;
+    max-height: 500px;
+    border-radius:7px;
+}
+#footer {
+    height: 170px;
+}
+#footer_nav {
+    text-align: center;
+    background: #343434;
+    padding: 7px;
+}
+#footer_body {
+    text-align: center;
+    padding: 7px;
+}
